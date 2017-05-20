@@ -12,12 +12,16 @@
         <title>JSP Page</title>
     </head>
     <body>
+    <center>
         <form method="post" action="ServletUsuario" >
-          <input name="name" id="name" type="text" placeholder="Nombre completo" >
-          <input name="email" id="email" type="email"placeholder="Correo electrónico" >
-          <input name="id" id="id" type="text" placeholder="Documento de identidad">
-          <input name="profesion" id="profesion" type="text" placeholder="Profesión">
+            <p>Escribe tus datos</p>
+            <p><input name="name" id="name" type="text" placeholder="Nombre completo" ></p>
+            <p><input name="email" id="email" type="email"placeholder="Correo electrónico" ></p>
+            <p><input name="id" id="id" type="text" placeholder="Documento de identidad"></p>
+            <p><input name="profesion" id="profesion" type="text" placeholder="Profesión"></p>
           <input type="submit" value="Enviar datos">
+          <button><a href="index.jsp">Volver</a></button>
         </form>
+        </center>
     </body>
 </html>

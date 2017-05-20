@@ -193,13 +193,17 @@
     <div class="row">
       <div class="col-md-8 col-md-offset-2 conForm">       
         <div id="message"></div>
+        
         <form method="post" action="ServletUsuario" name="cform" id="cform">
           <input name="name" id="name" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Nombre completo" >
           <input name="email" id="email" type="email" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr" placeholder="Correo electrónico" >
           <input name="id" id="id" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Documento de identidad">
           <input name="profesion" id="profesion" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Profesión">
           <input type="submit" id="submit" name="send" class="submitBnt" value="Enviar datos">
+          <a href="newjsp.jsp"<input  value="Enviar datosss">boton</a>
+
           <div id="simple-msg"></div>
+        
         </form>
       </div>
     </div>
